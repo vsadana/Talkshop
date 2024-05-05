@@ -29,5 +29,3 @@ Screenshot attached Below:
 
 3. **Profile Page**
 ![Simulator Screenshot - iPhone 15 - 2024-05-05 at 21 16 48](https://github.com/vsadana/Talkshop/assets/94601724/8678bc1e-525d-4031-9fb2-f99fee89f5e8)
-
-![Simulator Screenshot - iPhone 15 - 2024-05-05 at 21 16 12](https://github.com/vsadana/Talkshop/assets/94601724/5fb1d427-72c6-4c6e-b137-3b804e5ec6ce)
