@@ -12,8 +12,8 @@
      1. User Image
      2. List of all posts by that user
   
-**App Architecture:** MVVM
-**Framework:** SwiftUI
+1. **App Architecture:** MVVM
+2. **Framework:** SwiftUI
     
    
 Note: The data is fetched in the above project is from the static JSON
