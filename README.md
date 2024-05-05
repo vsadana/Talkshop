@@ -18,3 +18,14 @@ Assignment Link: https://docs.google.com/document/d/1PtGBapDiHqo_zDdUXxWM2o2k1UK
     
    
 Note: The data is fetched in the above project is from the static JSON
+
+Screenshot attached Below:
+
+1. **Feeds page**
+![Simulator Screenshot - iPhone 15 - 2024-05-05 at 21 16 12](https://github.com/vsadana/Talkshop/assets/94601724/1f71ee85-bd3c-4f98-b710-54b6428922aa)
+
+2. **Post Page**
+![Simulator Screenshot - iPhone 15 - 2024-05-05 at 21 16 41](https://github.com/vsadana/Talkshop/assets/94601724/ea871cda-5111-414f-a114-0f347b6244bf)
+
+3. **Profile Page**
+![Simulator Screenshot - iPhone 15 - 2024-05-05 at 21 16 48](https://github.com/vsadana/Talkshop/assets/94601724/8678bc1e-525d-4031-9fb2-f99fee89f5e8)
