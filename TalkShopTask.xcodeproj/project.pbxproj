@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577761422BE758EC00E2CB44 /* TalkShopTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577761412BE758EC00E2CB44 /* TalkShopTaskApp.swift */; };
+		577761442BE758EC00E2CB44 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577761432BE758EC00E2CB44 /* FeedView.swift */; };
+		577761462BE758EF00E2CB44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577761452BE758EF00E2CB44 /* Assets.xcassets */; };
+		577761492BE758EF00E2CB44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577761482BE758EF00E2CB44 /* Preview Assets.xcassets */; };
+		577761712BE7595600E2CB44 /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = 577761702BE7595600E2CB44 /* feed.json */; };
+		577761732BE75B0600E2CB44 /* postPage.json in Resources */ = {isa = PBXBuildFile; fileRef = 577761722BE75B0600E2CB44 /* postPage.json */; };
+		577761752BE75B5400E2CB44 /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = 577761742BE75B5400E2CB44 /* profile.json */; };
+		577761772BE75CDB00E2CB44 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577761762BE75CDB00E2CB44 /* FeedModel.swift */; };
+		577761792BE75CE400E2CB44 /* FeedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577761782BE75CE400E2CB44 /* FeedVM.swift */; };
+		5777617B2BE75CF500E2CB44 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777617A2BE75CF500E2CB44 /* ProfileModel.swift */; };
+		5777617D2BE75D0000E2CB44 /* ProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777617C2BE75D0000E2CB44 /* ProfileVM.swift */; };
+		5777617F2BE75D1B00E2CB44 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777617E2BE75D1B00E2CB44 /* PostModel.swift */; };
+		577761812BE75D2400E2CB44 /* PostVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577761802BE75D2400E2CB44 /* PostVM.swift */; };
+		577761842BE760AE00E2CB44 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577761832BE760AE00E2CB44 /* NetworkService.swift */; };
+		577761862BE7943200E2CB44 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577761852BE7943200E2CB44 /* ProfilePage.swift */; };
+		577761882BE795D000E2CB44 /* PostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577761872BE795D000E2CB44 /* PostPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5777614F2BE758EF00E2CB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577761362BE758EC00E2CB44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5777613D2BE758EC00E2CB44;
+			remoteInfo = TalkShopTask;
+		};
+		577761592BE758EF00E2CB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577761362BE758EC00E2CB44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5777613D2BE758EC00E2CB44;
+			remoteInfo = TalkShopTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5777613E2BE758EC00E2CB44 /* TalkShopTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkShopTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		577761412BE758EC00E2CB44 /* TalkShopTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkShopTaskApp.swift; sourceTree = "<group>"; };
+		577761432BE758EC00E2CB44 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		577761452BE758EF00E2CB44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577761482BE758EF00E2CB44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5777614E2BE758EF00E2CB44 /* TalkShopTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkShopTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		577761582BE758EF00E2CB44 /* TalkShopTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkShopTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		577761702BE7595600E2CB44 /* feed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
+		577761722BE75B0600E2CB44 /* postPage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = postPage.json; sourceTree = "<group>"; };
+		577761742BE75B5400E2CB44 /* profile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = profile.json; sourceTree = "<group>"; };
+		577761762BE75CDB00E2CB44 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		577761782BE75CE400E2CB44 /* FeedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVM.swift; sourceTree = "<group>"; };
+		5777617A2BE75CF500E2CB44 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		5777617C2BE75D0000E2CB44 /* ProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVM.swift; sourceTree = "<group>"; };
+		5777617E2BE75D1B00E2CB44 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		577761802BE75D2400E2CB44 /* PostVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVM.swift; sourceTree = "<group>"; };
+		577761832BE760AE00E2CB44 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		577761852BE7943200E2CB44 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		577761872BE795D000E2CB44 /* PostPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5777613B2BE758EC00E2CB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5777614B2BE758EF00E2CB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577761552BE758EF00E2CB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577761352BE758EC00E2CB44 = {
+			isa = PBXGroup;
+			children = (
+				577761402BE758EC00E2CB44 /* TalkShopTask */,
+				5777613F2BE758EC00E2CB44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5777613F2BE758EC00E2CB44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5777613E2BE758EC00E2CB44 /* TalkShopTask.app */,
+				5777614E2BE758EF00E2CB44 /* TalkShopTaskTests.xctest */,
+				577761582BE758EF00E2CB44 /* TalkShopTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		577761402BE758EC00E2CB44 /* TalkShopTask */ = {
+			isa = PBXGroup;
+			children = (
+				577761822BE75FE900E2CB44 /* NetworkService */,
+				5777616F2BE7593900E2CB44 /* Json */,
+				5777616B2BE7591300E2CB44 /* Modules */,
+				577761412BE758EC00E2CB44 /* TalkShopTaskApp.swift */,
+				577761452BE758EF00E2CB44 /* Assets.xcassets */,
+				577761472BE758EF00E2CB44 /* Preview Content */,
+			);
+			path = TalkShopTask;
+			sourceTree = "<group>";
+		};
+		577761472BE758EF00E2CB44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				577761482BE758EF00E2CB44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5777616B2BE7591300E2CB44 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5777616E2BE7592F00E2CB44 /* ProfilePage */,
+				5777616D2BE7592700E2CB44 /* PostPage */,
+				5777616C2BE7591900E2CB44 /* Feed */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5777616C2BE7591900E2CB44 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				577761432BE758EC00E2CB44 /* FeedView.swift */,
+				577761762BE75CDB00E2CB44 /* FeedModel.swift */,
+				577761782BE75CE400E2CB44 /* FeedVM.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		5777616D2BE7592700E2CB44 /* PostPage */ = {
+			isa = PBXGroup;
+			children = (
+				5777617E2BE75D1B00E2CB44 /* PostModel.swift */,
+				577761802BE75D2400E2CB44 /* PostVM.swift */,
+				577761872BE795D000E2CB44 /* PostPage.swift */,
+			);
+			path = PostPage;
+			sourceTree = "<group>";
+		};
+		5777616E2BE7592F00E2CB44 /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				5777617A2BE75CF500E2CB44 /* ProfileModel.swift */,
+				5777617C2BE75D0000E2CB44 /* ProfileVM.swift */,
+				577761852BE7943200E2CB44 /* ProfilePage.swift */,
+			);
+			path = ProfilePage;
+			sourceTree = "<group>";
+		};
+		5777616F2BE7593900E2CB44 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				577761702BE7595600E2CB44 /* feed.json */,
+				577761722BE75B0600E2CB44 /* postPage.json */,
+				577761742BE75B5400E2CB44 /* profile.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		577761822BE75FE900E2CB44 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				577761832BE760AE00E2CB44 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5777613D2BE758EC00E2CB44 /* TalkShopTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577761622BE758EF00E2CB44 /* Build configuration list for PBXNativeTarget "TalkShopTask" */;
+			buildPhases = (
+				5777613A2BE758EC00E2CB44 /* Sources */,
+				5777613B2BE758EC00E2CB44 /* Frameworks */,
+				5777613C2BE758EC00E2CB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkShopTask;
+			productName = TalkShopTask;
+			productReference = 5777613E2BE758EC00E2CB44 /* TalkShopTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5777614D2BE758EF00E2CB44 /* TalkShopTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577761652BE758EF00E2CB44 /* Build configuration list for PBXNativeTarget "TalkShopTaskTests" */;
+			buildPhases = (
+				5777614A2BE758EF00E2CB44 /* Sources */,
+				5777614B2BE758EF00E2CB44 /* Frameworks */,
+				5777614C2BE758EF00E2CB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577761502BE758EF00E2CB44 /* PBXTargetDependency */,
+			);
+			name = TalkShopTaskTests;
+			productName = TalkShopTaskTests;
+			productReference = 5777614E2BE758EF00E2CB44 /* TalkShopTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		577761572BE758EF00E2CB44 /* TalkShopTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577761682BE758EF00E2CB44 /* Build configuration list for PBXNativeTarget "TalkShopTaskUITests" */;
+			buildPhases = (
+				577761542BE758EF00E2CB44 /* Sources */,
+				577761552BE758EF00E2CB44 /* Frameworks */,
+				577761562BE758EF00E2CB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5777615A2BE758EF00E2CB44 /* PBXTargetDependency */,
+			);
+			name = TalkShopTaskUITests;
+			productName = TalkShopTaskUITests;
+			productReference = 577761582BE758EF00E2CB44 /* TalkShopTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577761362BE758EC00E2CB44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5777613D2BE758EC00E2CB44 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5777614D2BE758EF00E2CB44 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5777613D2BE758EC00E2CB44;
+					};
+					577761572BE758EF00E2CB44 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5777613D2BE758EC00E2CB44;
+					};
+				};
+			};
+			buildConfigurationList = 577761392BE758EC00E2CB44 /* Build configuration list for PBXProject "TalkShopTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 577761352BE758EC00E2CB44;
+			productRefGroup = 5777613F2BE758EC00E2CB44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5777613D2BE758EC00E2CB44 /* TalkShopTask */,
+				5777614D2BE758EF00E2CB44 /* TalkShopTaskTests */,
+				577761572BE758EF00E2CB44 /* TalkShopTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5777613C2BE758EC00E2CB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577761752BE75B5400E2CB44 /* profile.json in Resources */,
+				577761732BE75B0600E2CB44 /* postPage.json in Resources */,
+				577761712BE7595600E2CB44 /* feed.json in Resources */,
+				577761492BE758EF00E2CB44 /* Preview Assets.xcassets in Resources */,
+				577761462BE758EF00E2CB44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5777614C2BE758EF00E2CB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577761562BE758EF00E2CB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5777613A2BE758EC00E2CB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577761812BE75D2400E2CB44 /* PostVM.swift in Sources */,
+				5777617B2BE75CF500E2CB44 /* ProfileModel.swift in Sources */,
+				577761862BE7943200E2CB44 /* ProfilePage.swift in Sources */,
+				577761442BE758EC00E2CB44 /* FeedView.swift in Sources */,
+				577761772BE75CDB00E2CB44 /* FeedModel.swift in Sources */,
+				577761842BE760AE00E2CB44 /* NetworkService.swift in Sources */,
+				577761882BE795D000E2CB44 /* PostPage.swift in Sources */,
+				5777617F2BE75D1B00E2CB44 /* PostModel.swift in Sources */,
+				577761792BE75CE400E2CB44 /* FeedVM.swift in Sources */,
+				5777617D2BE75D0000E2CB44 /* ProfileVM.swift in Sources */,
+				577761422BE758EC00E2CB44 /* TalkShopTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5777614A2BE758EF00E2CB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577761542BE758EF00E2CB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		577761502BE758EF00E2CB44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5777613D2BE758EC00E2CB44 /* TalkShopTask */;
+			targetProxy = 5777614F2BE758EF00E2CB44 /* PBXContainerItemProxy */;
+		};
+		5777615A2BE758EF00E2CB44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5777613D2BE758EC00E2CB44 /* TalkShopTask */;
+			targetProxy = 577761592BE758EF00E2CB44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		577761602BE758EF00E2CB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		577761612BE758EF00E2CB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		577761632BE758EF00E2CB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkShopTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TalkShopTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		577761642BE758EF00E2CB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkShopTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TalkShopTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		577761662BE758EF00E2CB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TalkShopTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkShopTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkShopTask";
+			};
+			name = Debug;
+		};
+		577761672BE758EF00E2CB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TalkShopTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkShopTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkShopTask";
+			};
+			name = Release;
+		};
+		577761692BE758EF00E2CB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TalkShopTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkShopTask;
+			};
+			name = Debug;
+		};
+		5777616A2BE758EF00E2CB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TalkShopTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkShopTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577761392BE758EC00E2CB44 /* Build configuration list for PBXProject "TalkShopTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577761602BE758EF00E2CB44 /* Debug */,
+				577761612BE758EF00E2CB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577761622BE758EF00E2CB44 /* Build configuration list for PBXNativeTarget "TalkShopTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577761632BE758EF00E2CB44 /* Debug */,
+				577761642BE758EF00E2CB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577761652BE758EF00E2CB44 /* Build configuration list for PBXNativeTarget "TalkShopTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577761662BE758EF00E2CB44 /* Debug */,
+				577761672BE758EF00E2CB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577761682BE758EF00E2CB44 /* Build configuration list for PBXNativeTarget "TalkShopTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577761692BE758EF00E2CB44 /* Debug */,
+				5777616A2BE758EF00E2CB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 577761362BE758EC00E2CB44 /* Project object */;
+}

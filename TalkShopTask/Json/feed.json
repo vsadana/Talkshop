@@ -1,0 +1,22 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "postId" : "post_id_1",
+            "videoUrl": "https://example.com/videos/video1.mp4",
+            "thumbnail_url" : "https://tpc.googlesyndication.com/simgad/5337583003278028327",
+            "username" : "user123",
+            "profilePictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8cTn1-RRcQ_T4-cf40vYi4sjFEADIdog1TqwvXO3kw&s",
+            "likes": 56
+        },
+        {
+            "postId": "post_id_2",
+            "videoUrl": "https://example.com/videos/video2.mp4",
+            "thumbnail_url": "https://tpc.googlesyndication.com/simgad/7888066619423783157",
+            "username": "user456",
+            "profilePictureUrl": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            "likes": 102
+        }
+    ]
+}
+
